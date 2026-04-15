@@ -104,5 +104,3 @@ finalTasks.forEach(createfinalCard);
 
 
 });
-
-
