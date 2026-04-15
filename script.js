@@ -52,5 +52,59 @@ projectGrid.appendChild(card);
 
 midtermTasks.forEach(createCard);
 
+const finalTasks=[
+
+{
+title:"Final Lab Task 1",
+description:"Data Preparation and Analysis using SQL",
+link:"final_task1.html"
+},
+
+{
+title:"Final Lab Task 2",
+
+},
+
+{
+title:"Final Lab Task 3",
+
+}
+
+];
+
+const final_projectGrid=document.getElementById("final_projectGrid");
+
+
+function createfinalCard(task){
+
+const final_card=document.createElement("div");
+
+final_card.classList.add("final_card");
+
+final_card.innerHTML=`
+
+<h3>${task.title}</h3>
+
+<p>${task.description}</p>
+
+<a href="${task.link}" target="_blank">
+
+View Uploaded Task
+
+</a>
+
+`;
+
+final_projectGrid.appendChild(final_card);
+
+}
+
+
+finalTasks.forEach(createfinalCard);
+
 
 });
+
+
+});
+
