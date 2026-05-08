@@ -62,6 +62,8 @@ link:"final_task1.html"
 
 {
 title:"Final Lab Task 2",
+description:"Navigating Power BI",
+link:"final_task2.html"
 
 },
 
